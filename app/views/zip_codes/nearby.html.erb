@@ -1,0 +1,32 @@
+<h1>Listing nearby zip_codes</h1>
+
+<% form_tag({:action => :nearby}, :method => :get) do -%>
+<p>
+  <label for="latitude">Latitude</label><%= text_field_tag 'latitude', params[:latitude] %>
+  <label for="longitude">Longitude</label><%= text_field_tag 'longitude', params[:longitude] %>
+  <label for="radius">Radius</label><%= text_field_tag 'radius', params[:radius] %>
+</p>
+<p><%= submit_tag "Find nearby ZIP codes" %></p>
+             
+<% end -%>
+
+<table>
+  <tr>
+    <th>Zip code</th>
+    <th>Distance (mi)</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+  </tr>
+
+<% for zip_code in @zip_codes %>
+  <tr>
+    <%= render :partial => 'zip_code', :locals => {:zip_code => zip_code} %>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New zip_code', new_zip_code_path %>

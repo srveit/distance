@@ -1,0 +1,86 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  zip_code: "63044"
+  state_abbreviation: MO
+  latitude: 38.757318
+  longitude: -90.42335
+  city: Bridgeton
+  state: Missouri
+zip2:
+  zip_code: "63031"
+  state_abbreviation: MO
+  latitude: 38.801600
+  longitude: -90.33662
+  city: Florissant
+  state: Missouri
+zip3:
+  zip_code: "63033"
+  state_abbreviation: MO
+  latitude: 38.795050
+  longitude: -90.28578
+  city: Florissant
+  state: Missouri
+zip4:
+  zip_code: "63034"
+  state_abbreviation: MO
+  latitude: 38.832863
+  longitude: -90.29051
+  city: Florissant
+  state: Missouri
+zip5:
+  zip_code: "63036"
+  state_abbreviation: MO
+  latitude: 37.978610
+  longitude: -90.34637
+  city: French Village
+  state: Missouri
+zip6:
+  zip_code: "63037"
+  state_abbreviation: MO
+  latitude: 38.412764
+  longitude: -91.32460
+  city: Gerald
+  state: Missouri
+zip7:
+  zip_code: "63038"
+  state_abbreviation: MO
+  latitude: 38.578703
+  longitude: -90.66508
+  city: Glencoe
+  state: Missouri
+zip8:
+  zip_code: "63039"
+  state_abbreviation: MO
+  latitude: 38.499489
+  longitude: -90.83398
+  city: Gray Summit
+  state: Missouri
+zip9:
+  zip_code: "63040"
+  state_abbreviation: MO
+  latitude: 38.575835
+  longitude: -90.61878
+  city: Grover
+  state: Missouri
+zip10:
+  zip_code: "63041"
+  state_abbreviation: MO
+  latitude: 38.262811
+  longitude: -90.77513
+  city: Grubville
+  state: Missouri
+zip11:
+  zip_code: "63042"
+  state_abbreviation: MO
+  latitude: 38.778500
+  longitude: -90.37005
+  city: Hazelwood
+  state: Missouri
+zip12:
+  zip_code: "63043"
+  state_abbreviation: MO
+  latitude: 38.725331
+  longitude: -90.44451
+  city: Maryland Heights
+  state: Missouri

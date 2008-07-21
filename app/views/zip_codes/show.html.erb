@@ -1,0 +1,28 @@
+<p>
+  <b>Zip code:</b>
+  <%=h @zip_code.zip_code %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%=h @zip_code.state %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @zip_code.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @zip_code.longitude %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @zip_code.city %>
+</p>
+
+
+<%= link_to 'Edit', edit_zip_code_path(@zip_code) %> |
+<%= link_to 'Back', zip_codes_path %>

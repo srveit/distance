@@ -1,0 +1,26 @@
+<h1>Listing zip_codes</h1>
+
+<table>
+  <tr>
+    <th>Zip code</th>
+    <th>City</th>
+    <th>State</th>
+    <th>State Abbreviation</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+  </tr>
+
+<% for zip_code in @zip_codes %>
+  <tr>
+    <%= render :partial => 'zip_code', :locals => {:zip_code => zip_code} %>
+    <td><%= link_to 'Show', zip_code %></td>
+    <td><%= link_to 'Edit', edit_zip_code_path(zip_code) %></td>
+    <td><%= link_to 'Destroy', zip_code, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= will_paginate @categories %>
+<%= link_to 'New zip_code', new_zip_code_path %>

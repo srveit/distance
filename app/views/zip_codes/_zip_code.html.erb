@@ -1,0 +1,11 @@
+<td><%=h zip_code.zip_code %></td>
+<% if zip_code.distance -%>
+<td><%=h '%5.2f' % zip_code.distance %></td>
+<% end -%>
+<td><%=h zip_code.city %></td>
+<% if !zip_code.distance -%>
+<td><%=h zip_code.state %></td>
+<% end -%>
+<td><%=h zip_code.state_abbreviation %></td>
+<td><%=h zip_code.latitude %></td>
+<td><%=h zip_code.longitude %></td>
